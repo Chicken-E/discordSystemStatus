@@ -1,0 +1,16 @@
+{
+  "name": "discordRichSystemStatus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "antti@antti.codes",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "os-utils": "0.0.14"
+  }
+}
