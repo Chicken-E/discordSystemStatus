@@ -2,7 +2,7 @@ const client = require('discord-rich-presence')('729060786755862560');
 const os = require("os");
 const utils = require("os-utils");
 
-const started = Date.now()
+const started = Date.now()-(require("os-utils").sysUptime()*1000)
 
 function setStatus() {
 	let cpus = os.cpus();
